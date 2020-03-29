@@ -12,9 +12,9 @@ export default class SeleccionarPersonaje extends React.Component {
   render() {
     return (
       <div>
-      <form onSubmit={this.seleccionar}>
+      <form onSubmit={this.seleccionar.bind(this)}>
         <p>Seleccione con que personaje desea jugar:</p>
-        <p><select onChange={this.datosPj}>
+        <p><select onChange={this.datosPj.bind(this)}>
         {PJS.map((pj, index) => <option value={index}>{pj.nombre}</option>)}
         </select></p>
         <div aria-live="polite">
@@ -28,6 +28,15 @@ export default class SeleccionarPersonaje extends React.Component {
   }
   
   datosPj(e) {
-    this.setState({ pj: this.pjs[e.target.value] })
+    this.setState({ pj: PJS[e.target.value] });
   }
+  
+  seleccionar(e) {
+    e.preventDefault();
+    this.props.history.push({
+      pathname: '/game',
+      state: { pj: this.state.pj }
+    })
+    }
+
 }

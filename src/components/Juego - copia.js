@@ -4,7 +4,7 @@ export default class Juego extends React.Component {
   constructor(props) {
     super(props);
     this.state ={
-      pj: props.location.state.pj,
+      pj: props.pj,
       info: "Realiza tu primer ataque."
     }
   }
