@@ -26,6 +26,9 @@ let juan = new Pj("juan", 20);
 juan.addAttack(patada);
 juan.addAttack(golpe);
 
+let sofia = new Pj("sofia", 30);
+sofia.addAttack(golpe);
+
 // enemigos:
 let jorge = new Pj("jorge", 20);
 jorge.addAttack(patada);
@@ -36,7 +39,7 @@ jorge.addAttack(golpe);
 
 export const PJS = [
 juan,
-new Pj("sofia", 30)
+sofia
 ];
 
 export  const PNJ = [jorge];
