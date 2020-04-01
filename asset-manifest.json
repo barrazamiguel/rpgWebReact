@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/rpgWebReact/static/css/main.69eda509.chunk.css",
-    "main.js": "/rpgWebReact/static/js/main.93cb5c8f.chunk.js",
-    "main.js.map": "/rpgWebReact/static/js/main.93cb5c8f.chunk.js.map",
+    "main.css": "/rpgWebReact/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/rpgWebReact/static/js/main.9cf3e7b5.chunk.js",
+    "main.js.map": "/rpgWebReact/static/js/main.9cf3e7b5.chunk.js.map",
     "runtime-main.js": "/rpgWebReact/static/js/runtime-main.51d4ce66.js",
     "runtime-main.js.map": "/rpgWebReact/static/js/runtime-main.51d4ce66.js.map",
-    "static/js/2.09775423.chunk.js": "/rpgWebReact/static/js/2.09775423.chunk.js",
-    "static/js/2.09775423.chunk.js.map": "/rpgWebReact/static/js/2.09775423.chunk.js.map",
+    "static/js/2.79d61f9f.chunk.js": "/rpgWebReact/static/js/2.79d61f9f.chunk.js",
+    "static/js/2.79d61f9f.chunk.js.map": "/rpgWebReact/static/js/2.79d61f9f.chunk.js.map",
     "index.html": "/rpgWebReact/index.html",
-    "precache-manifest.2bb8aae30d61be823d7d87417d79b670.js": "/rpgWebReact/precache-manifest.2bb8aae30d61be823d7d87417d79b670.js",
+    "precache-manifest.387265f7720dcaedc1d3664ea1ed3645.js": "/rpgWebReact/precache-manifest.387265f7720dcaedc1d3664ea1ed3645.js",
     "service-worker.js": "/rpgWebReact/service-worker.js",
-    "static/css/main.69eda509.chunk.css.map": "/rpgWebReact/static/css/main.69eda509.chunk.css.map",
-    "static/js/2.09775423.chunk.js.LICENSE.txt": "/rpgWebReact/static/js/2.09775423.chunk.js.LICENSE.txt"
+    "static/css/main.5ecd60fb.chunk.css.map": "/rpgWebReact/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.79d61f9f.chunk.js.LICENSE.txt": "/rpgWebReact/static/js/2.79d61f9f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.51d4ce66.js",
-    "static/js/2.09775423.chunk.js",
-    "static/css/main.69eda509.chunk.css",
-    "static/js/main.93cb5c8f.chunk.js"
+    "static/js/2.79d61f9f.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.9cf3e7b5.chunk.js"
   ]
 }
